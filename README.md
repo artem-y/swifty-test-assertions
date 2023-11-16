@@ -19,15 +19,17 @@ I've been using these assertions in different projects for a while and they prov
    import SwiftyTestAssertions
    ```
 #### In Xcode project/workspace:
-1. Go to File > Add Package Dependencies... in Xcode top navigation menu. _(Alternatively, in "General" project settings tab, in target's "Frameworks and Settings" section choose "+", then select "Add Package Dependency...")_
-2. Search for `artem-y/swifty-test-assertions` (paste this link into search):
+1. Go to File > Add Package Dependencies... in Xcode top navigation menu.  
+   - _or go to project settings "Package Dependencies" and hit "+"_  
+   - _or go to "General" target settings tab, in target's "Frameworks and Settings" section choose "+", then select "Add Package Dependency..."_
+3. Search for `artem-y/swifty-test-assertions` (paste this link into search):
 
     ```swift
     git@github.com:artem-y/swifty-test-assertions.git
     ```
-3. When Xcode finds the package, select "Up to Next Major Version" dependency rule and press "Add Package" button
-4. Choose a test target that needs to use this package and press "Add Package"
-5. Import `SwiftyTestAssertions` module where they need to be used:
+4. When Xcode finds the package, select "Up to Next Major Version" dependency rule and press "Add Package" button
+5. Choose a test target that needs to use this package and press "Add Package"
+6. Import `SwiftyTestAssertions` module where they need to be used:
    ```swift
    import SwiftyTestAssertions
    ```
