@@ -1,4 +1,4 @@
-# swifty-test-assertions
+# SwiftyTestAssertions
 Lightweight addition of useful assertions to XCTest  
 
 I've been using these assertions in different projects for a while and they proved quite handy, so I decided to move them to separate package. It is important that this package only contains the actual assertions without extra noise, to make it small and easy to add.
