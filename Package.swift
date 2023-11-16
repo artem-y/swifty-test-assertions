@@ -7,7 +7,8 @@ let package = Package(
     products: [
         .library(
             name: "SwiftyTestAssertions",
-            targets: ["SwiftyTestAssertions"]),
+            targets: ["SwiftyTestAssertions"]
+        ),
     ],
     targets: [
         .target(name: "SwiftyTestAssertions"),
