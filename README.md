@@ -19,7 +19,7 @@ I've been using these assertions in different projects for a while and they prov
    import SwiftyTestAssertions
    ```
 #### In Xcode project/workspace:
-1. Go to File > Add package dependencies... in Xcode top navigation menu:
+1. Go to File > Add Package Dependencies... in Xcode top navigation menu. _(Alternatively, in "General" project settings tab, in target's "Frameworks and Settings" section choose "+", then select "Add Package Dependency...")_
 2. Search for `artem-y/swifty-test-assertions` (paste this link into search):
 
     ```swift
