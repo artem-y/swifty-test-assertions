@@ -3,17 +3,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "swifty-test-assertions",
+    name: "SwiftyTestAssertions",
     products: [
         .library(
-            name: "swifty-test-assertions",
-            targets: ["swifty-test-assertions"]),
+            name: "SwiftyTestAssertions",
+            targets: ["SwiftyTestAssertions"]),
     ],
     targets: [
-        .target(
-            name: "swifty-test-assertions"),
-        .testTarget(
-            name: "swifty-test-assertionsTests",
-            dependencies: ["swifty-test-assertions"]),
+        .target(name: "SwiftyTestAssertions"),
     ]
 )
