@@ -80,7 +80,7 @@ public func AssertAsync<T, E: Error & Equatable>(
 
 fileprivate func makeWrongErrorTypeMessage(actualError: Error, expectedError: Error) -> String {
     """
-    Threw wrong type of error \"(\"\(type(of: actualError))\")\" \
-    instead of expected type \"(\"\(type(of: expectedError))\")\"
+    Threw wrong type of error ("\(type(of: actualError))") \
+    instead of expected type ("\(type(of: expectedError))")
     """
 }
