@@ -8,7 +8,7 @@ I've been using these assertions in different projects for a while and they prov
 1. Add `swifty-test-assertions` to package dependencies in `Package.swift`:
    
    ```swift
-   .package(url: "git@github.com:artem-y/swifty-test-assertions.git", from: "0.1.0"),
+   .package(url: "git@github.com:artem-y/swifty-test-assertions.git", from: "0.1.1"),
    ```
 2. Add `SwiftyTestAssertions` product dependency to test target(s) in `Package.swift`:
    ```swift
